@@ -1,0 +1,10 @@
+# This firmware assumes the device already has this partition table (read from 0x8000 at runtime; the built partition table is never flashed).
+# Differs from the factory table: in the factory layout 0x20000 is not ota_0.
+# ⚠️ Comments must be whole lines: IDF's CSV parser doesn't accept trailing comments.
+# Name,     Type, SubType, Offset,   Size
+otadata,    data, ota,     0xD000,   0x2000
+phy_init,   data, phy,     0xF000,   0x1000
+nvs,        data, nvs,     0x10000,  0x6000
+ota_0,      app,  ota_0,   0x20000,  0x200000
+ota_1,      app,  ota_1,   0x220000, 0x200000
+content,    data, spiffs,  0x420000, 0xBE0000

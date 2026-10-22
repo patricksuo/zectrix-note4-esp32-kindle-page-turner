@@ -1,0 +1,32 @@
+/* ZECTRIX NOTE4 pin map. EPD BUSY is active-low; GPIO17 is the main power latch; GPIO46 (PA) must be low before GPIO42 (AVDD) is on. */
+#ifndef BOARD_PINS_H
+#define BOARD_PINS_H 
+#include "driver/gpio.h"
+#define PIN_PWR_ON GPIO_NUM_17
+#define PIN_PA_CTRL GPIO_NUM_46
+#define PIN_AVDD_EN GPIO_NUM_42
+#define PIN_EPD_PWR GPIO_NUM_6
+#define PIN_NFC_PWR GPIO_NUM_21
+#define PIN_KEY_ENTER GPIO_NUM_0
+#define PIN_KEY_PGUP GPIO_NUM_39
+#define PIN_KEY_PGDN GPIO_NUM_18
+#define PIN_CHRG_L GPIO_NUM_2
+#define PIN_STDBY_H GPIO_NUM_1
+#define PIN_RTC_INT GPIO_NUM_5
+#define PIN_NFC_FD GPIO_NUM_7
+#define PIN_EPD_BUSY GPIO_NUM_8
+#define PIN_EPD_RST GPIO_NUM_9
+#define PIN_EPD_DC GPIO_NUM_10
+#define PIN_EPD_CS GPIO_NUM_11
+#define PIN_EPD_SCK GPIO_NUM_12
+#define PIN_EPD_MOSI GPIO_NUM_13
+#define PIN_I2S_MCLK GPIO_NUM_14
+#define PIN_I2S_BCLK GPIO_NUM_15
+#define PIN_I2S_DIN GPIO_NUM_16
+#define PIN_I2S_WS GPIO_NUM_38
+#define PIN_I2S_DOUT GPIO_NUM_45
+#define PIN_I2C_SDA GPIO_NUM_47
+#define PIN_I2C_SCL GPIO_NUM_48
+#define PIN_LED GPIO_NUM_3
+#define ADC_BAT_CHANNEL ADC_CHANNEL_3
+#endif
