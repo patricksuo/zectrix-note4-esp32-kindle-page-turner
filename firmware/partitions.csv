@@ -1,0 +1,10 @@
+# 本固件假定设备上已经是这张分区表（运行时从 0x8000 读取；构建出的分区表不会被烧录）。
+# 与出厂分区表不同：出厂布局下 0x20000 不是 ota_0。
+# ⚠️ 注释必须整行——IDF 的 CSV 解析器不认行尾注释。
+# Name,     Type, SubType, Offset,   Size
+otadata,    data, ota,     0xD000,   0x2000
+phy_init,   data, phy,     0xF000,   0x1000
+nvs,        data, nvs,     0x10000,  0x6000
+ota_0,      app,  ota_0,   0x20000,  0x200000
+ota_1,      app,  ota_1,   0x220000, 0x200000
+content,    data, spiffs,  0x420000, 0xBE0000
