@@ -33,9 +33,13 @@ pages. Tried it on another model? [Let us know](../../issues).
 
 ## Don't have a NOTE4?
 
+Not sure what kind of page turner you want?
+[Kindle Page Turners, Explained](https://hqb.market/blogs/journal/kindle-page-turners-explained?utm_source=github&utm_medium=readme&utm_campaign=note4)
+compares Bluetooth remotes, clip-ons and jailbreak setups.
+
 ### Buy one ready-made
 
-- **[HQB Market](https://hqb.market/collections/kindle-page-turners)** (our store): Zhilian Zongwei (智联纵维) remotes from $10. Ships to the US, CA, AU and NZ.
+- **[HQB Market](https://hqb.market/collections/kindle-page-turners?utm_source=github&utm_medium=readme&utm_campaign=note4)** (our store): Zhilian Zongwei (智联纵维) remotes from $10. Ships to the US, CA, AU and NZ.
 - **[Hanlinyue (翰林阅)](https://hanlinyue.com.cn/)**: e-readers and page turners, also on AliExpress in some regions.
 
 ### Build one yourself
